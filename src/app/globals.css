@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #eee;
+    --foreground: #0a0a0a;
+
+    --item: #dbdbdb;
+
+    --primary: #8f64ff;
+  }
+
+  .dark {
+    --background: #0a0a0a;
+    --foreground: #ffffff;
+
+    --item: #151515;
+  }
+}
